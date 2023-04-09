@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$header-text-color".
-        on line 21 of D:\prog\barberShop\sass\hero.scss
+Error: Undefined variable: "$color_accent".
+        on line 94 of D:\prog\mebli\sass\hero.scss
 
-16:   bottom: -540px;
-17:   &::before {
-18:     content: "";
-19:     width: 60px;
-20:     height: 1px;
-21:     background-color: $header-text-color;
-22:     margin-right: 20px;
-23:     position: absolute;
-24:     top: 12px;
-25:     left: -80px;
-26:   }
+89:     width: 15px;
+90:     height: 100%;
+91:     position: absolute;
+92:     top: 0;
+93:     left: 0;
+94:     background-color: $color_accent;
+95:     @media screen and (max-width: 720px) {
+96:       width: 5px;
+97:     }
+98:   }
+99:   @media screen and (max-width: 1540px) {
 
 Backtrace:
-D:\prog\barberShop\sass\hero.scss:21
+D:\prog\mebli\sass\hero.scss:94
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-text-color\".\A         on line 21 of D:\prog\barberShop\sass\hero.scss\A \A 16:   bottom: -540px;\A 17:   &::before {\A 18:     content: \"\";\A 19:     width: 60px;\A 20:     height: 1px;\A 21:     background-color: $header-text-color;\A 22:     margin-right: 20px;\A 23:     position: absolute;\A 24:     top: 12px;\A 25:     left: -80px;\A 26:   }"; }
+  content: "Error: Undefined variable: \"$color_accent\".\A         on line 94 of D:\prog\mebli\sass\hero.scss\A \A 89:     width: 15px;\A 90:     height: 100%;\A 91:     position: absolute;\A 92:     top: 0;\A 93:     left: 0;\A 94:     background-color: $color_accent;\A 95:     @media screen and (max-width: 720px) {\A 96:       width: 5px;\A 97:     }\A 98:   }\A 99:   @media screen and (max-width: 1540px) {"; }

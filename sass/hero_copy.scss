@@ -54,11 +54,6 @@
 .slider__list .slider__item img {
   max-width: 100%;
   position: relative;
-  @media screen and (max-width: 720px) {
-    height: 294px;
-    // width: 100%;
-    object-fit: cover;
-  }
 }
 .slider {
   position: relative;
@@ -92,63 +87,30 @@
     top: 0;
     left: 0;
     background-color: $color_accent;
-    @media screen and (max-width: 720px) {
-      width: 5px;
-    }
-  }
-  @media screen and (max-width: 1540px) {
-    padding: 50px 55px;
-    max-width: 350px;
-  }
-  @media screen and (max-width: 1180px) {
-    left: 31px;
-    padding: 35px 35px;
-    max-width: 300px;
-  }
-  @media screen and (max-width: 960px) {
-    padding: 22px 22px;
-    max-width: 220px;
-  }
-  @media screen and (max-width: 720px) {
-    left: 11px;
-    padding: 10px 10px;
-    max-width: 180px;
   }
 }
 // ===========================================
+@media screen and (max-width: 1540) {
+  .slider__content {
+    padding: 50px 55px;
+    max-width: 100px;
+  }
+}
 
 .slider__title {
   font-size: 64px;
   line-height: 100%;
   &:not(:last-child) {
     margin-bottom: 50px;
-    @media screen and (max-width: 960px) {
-      margin-bottom: 20px;
-    }
   }
-  @media screen and (max-width: 1540px) {
-    font-size: 44px;
-  }
-  @media screen and (max-width: 1180px) {
-    font-size: 30px;
-  }
-  @media screen and (max-width: 960px) {
-    font-size: 22px;
+  @media screen and (max-width: 1540) {
+    font-size: 164px;
   }
 }
 .slider__sub-title {
   font-size: 36px;
   &:not(:last-child) {
     margin-bottom: 10px;
-  }
-  @media screen and (max-width: 1540px) {
-    font-size: 28px;
-  }
-  @media screen and (max-width: 1180px) {
-    font-size: 22px;
-  }
-  @media screen and (max-width: 960px) {
-    font-size: 14px;
   }
 }
 .slider__description {
@@ -157,18 +119,6 @@
   line-height: 125%;
   &:not(:last-child) {
     margin-bottom: 30px;
-    @media screen and (max-width: 960px) {
-      margin-bottom: 15px;
-    }
-  }
-  @media screen and (max-width: 1540px) {
-    font-size: 24px;
-  }
-  @media screen and (max-width: 1180px) {
-    font-size: 18px;
-  }
-  @media screen and (max-width: 960px) {
-    font-size: 14px;
   }
 }
 .slider__link {
@@ -178,19 +128,8 @@
   font-size: 18px;
   text-transform: uppercase;
   color: $color_white;
-  @media screen and (max-width: 1180px) {
-    padding: 14px 26px;
-  }
-  @media screen and (max-width: 960px) {
-    font-size: 14px;
-    padding: 10px 15px;
-  }
-
   &:not(:last-child) {
     margin-bottom: 50px;
-    @media screen and (max-width: 1180px) {
-      margin-bottom: 25px;
-    }
   }
   &:hover,
   &:focus {
@@ -205,15 +144,9 @@
 }
 .slider__active {
   font-size: 36px;
-  @media screen and (max-width: 1180px) {
-    font-size: 22px;
-  }
 }
 .slider__next {
   font-size: 24px;
-  @media screen and (max-width: 1180px) {
-    font-size: 14px;
-  }
 }
 .slider__container-btn {
   display: flex;

@@ -1,18 +1,18 @@
 .header {
-  // position: fixed;
+  position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
   z-index: 50;
-  max-width: 1920px;
+  background-color: $color_white;
   margin-left: auto;
   margin-right: auto;
+
   @media screen and (min-width: 768px) {
     &::after {
       content: "";
       position: absolute;
       height: 1px;
       width: 100%;
+      opacity: 0.6;
 
       left: 0;
       background-color: $primery-text-color;
@@ -51,6 +51,7 @@
   @media screen and (max-width: 767px) {
     flex-direction: column;
     gap: 15px;
+    order: 2;
   }
 }
 .header__social-title {
@@ -320,16 +321,19 @@
   gap: 17px;
   position: relative;
   width: 100%;
+  padding: 20px 20px;
+  background-color: $color_white;
   @media screen and (max-width: 1439px) {
     gap: 25px;
     display: none;
     flex-direction: column;
     position: absolute;
-    width: 100%;
+    width: 150%;
     top: 25px;
     left: 0;
     // border: 1px solid $color_accent;
-    padding: 10px 10px;
+    padding: 20px 20px;
+
     &::before {
       content: "";
       height: 100%;
@@ -340,6 +344,9 @@
       background-color: $color_accent;
     }
   }
+  @media screen and (max-width: 390px) {
+    width: 120%;
+  }
 }
 
 .header__catalog-item {
@@ -348,6 +355,7 @@
   }
 
   display: flex;
+  justify-content: space-between;
   font-size: 18px;
   gap: 3px;
   text-transform: uppercase;
@@ -390,6 +398,7 @@
 .header__catalog__link {
   font-size: 18px;
   display: flex;
+
   @media screen and (min-width: 1440px) {
     display: none;
   }
@@ -435,6 +444,7 @@
 .header__logo-icon {
   width: 125px;
   height: 75px;
+
   @media screen and (max-width: 1020px) {
     height: 60px;
   }
@@ -575,8 +585,8 @@
     padding: 100px 10px 20px 10px;
     z-index: 1;
     // display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -587,16 +597,14 @@
     display: flex;
     flex-direction: column;
   }
-}
-.sub__list {
-  @media screen and (max-width: 1439px) {
-    top: 0px;
-    left: 90%;
-    height: 100%;
+  .header__menu {
+    display: flex;
   }
+}
+
+.sub__list {
   display: flex;
   flex-direction: column;
-
   top: 20px;
   left: 0;
   padding: 10px;
@@ -613,6 +621,12 @@
     top: 0;
     left: 0;
     background-color: $color_accent;
+  }
+
+  @media screen and (max-width: 1439px) {
+    top: 10px;
+    left: 90%;
+    height: 100%;
   }
 }
 .header__catalog-item {
@@ -634,6 +648,16 @@
     z-index: 2;
     background-color: #fff;
     width: 100%;
+  }
+  &:focus-within .sub__list {
+    @media screen and (min-width: 1440px) {
+      width: 250%;
+    }
+  }
+  &:hover .sub__list {
+    @media screen and (min-width: 1440px) {
+      width: 250%;
+    }
   }
 }
 

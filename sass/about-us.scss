@@ -1,0 +1,58 @@
+.about-us__section {
+}
+._section {
+}
+.about-us__container {
+  padding: 0 0;
+}
+._container {
+}
+
+.about-us__content {
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.about-us__img {
+  //   display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-us__img-content {
+  max-width: 73%;
+  display: flex;
+  align-self: self-end;
+}
+.about-us__text-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 804px;
+  background-color: $color_white;
+  left: 0;
+  top: 15%;
+  padding: 50px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background-color: $color_accent;
+  }
+}
+.about-us__text {
+  line-height: $line-height;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-us__text span {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color_accent;
+}

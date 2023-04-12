@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -248,6 +249,7 @@
         </div>
     </header>
     <main>
+        <!-- hero -->
         <section class='hero__section _section'>
             <div class='hero__container _container'>
                 <div class='slider'>
@@ -355,12 +357,148 @@
                     </div>
                 </div>
             </div>
+
         </section>
+        <!-- advantages  -->
+        <section class='advantages__section _section'>
+            <div class='advantages__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Наші переваги</h2>
+                </div>
+
+                <div class="image-slider swiper-container">
+                    <div class="swiper-button-prev"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-left'></use>
+                        </svg></div>
+                    <div class="swiper-button-next"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-right'></use>
+                        </svg></div>
+
+
+                    <div class="image-slider__wrapper swiper-wrapper">
+
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/1.webp 1x, ./img/advantages/1@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/1.jpg 1x, ./img/advantages/1@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/1.jpg" alt="Меблі">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Меблі преміум класу</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/2.webp 1x, ./img/advantages/2@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/2.jpg 1x, ./img/advantages/2@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/2.jpg" alt="Команда">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Надійність</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/3.webp 1x, ./img/advantages/3@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/3.jpg 1x, ./img/advantages/3@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/3.jpg" alt=" ">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title swiper-slide__item-title-special'>Безкоштовна
+                                        доставка</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/1.webp 1x, ./img/advantages/1@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/1.jpg 1x, ./img/advantages/1@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/1.jpg" alt="Меблі">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Меблі преміум класу</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/2.webp 1x, ./img/advantages/2@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/2.jpg 1x, ./img/advantages/2@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/2.jpg" alt="Команда">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title'>Надійність</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                            <a rel='noopener no-referrel nofollow' class='image-slider__link _link' href=''>
+                                <picture>
+                                    <source srcset='./img/advantages/3.webp 1x, ./img/advantages/3@2x.webp 2x'
+                                        type='image/webp'>
+                                    <source srcset='./img/advantages/3.jpg 1x, ./img/advantages/3@2x.jpg 2x'>
+                                    <img class='advantages__img' src="./img/advateges/3.jpg" alt=" ">
+                                </picture>
+                                <div class="swiper-slide__contaier">
+                                    <h3 class='swiper-slide__item-title swiper-slide__item-title-special'>Безкоштовна
+                                        доставка</h3>
+                                    <p class='swiper-slide__item-description'>За 14 років на ринку меблів для дому ми
+                                        стали
+                                        надійними
+                                        партнерами на ринку Вінницької області та України</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Добавляем если нам нужны стрелки управления -->
+
+                    <!-- Добавляем, если нам нужна пагинация -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+        </section>
+
+
     </main>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-advantages.js"></script>
 </body>
 
 

@@ -252,108 +252,134 @@
         <!-- hero -->
         <section class='hero__section _section'>
             <div class='hero__container _container'>
-                <div class='slider'>
-                    <div class="slider__list">
-                        <div id="slider-1" class='slider__item s1'>
-                            <picture>
-                                <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
-                                <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
-                                <img src="./img/hero/1.jpg" alt="Ліжко">
-                            </picture>
-                            <div class='slider__content'>
-                                <h1 class='slider__title'>Новинка!</h1>
-                                <h3 class='slider__sub-title'>Ліжко Ornella</h3>
-                                <p class='slider__description'>Це новий рівень комфортного сну</p>
-                                <a rel='noopener no-referrel nofollow' class='slider__link _link' href=''>Детальніше</a>
-                                <p class='slider__position'><span class="slider__active">01</span><span
-                                        class="slider__next">/04</span></p>
-                                <div class='slider__container-btn'>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-4'><svg class='slider__icon'>
-                                            <use href='./svg/sprite.svg#icon-arrow-left'></use>
-                                        </svg></a>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-2'><svg class="slider__icon">
-                                            <use href='./svg/sprite.svg#icon-arrow-right'></use>
-                                        </svg></a>
+                <div class="image-slider swiper-container image-slider-hero">
+                    <div class="swiper-button-prev"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-left'></use>
+                        </svg></div>
+                    <div class="swiper-button-next"><svg class="swiper-button-svg">
+                            <use href='./svg/sprite.svg#icon-right'></use>
+                        </svg></div>
+
+
+
+                    <div class="image-slider__wrapper swiper-wrapper">
+
+                        <div class="image-slider__slide swiper-slide-hero swiper-slide">
+                            <div class="image-slider__image">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">01</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+                                    <div class='slider__container-btn'>
+                                        <div class="swiper-button-prev"><svg class="swiper-button-svg">
+                                                <use href='./svg/sprite.svg#icon-left'></use>
+                                            </svg></div>
+                                        <div class="swiper-button-next"><svg class="swiper-button-svg">
+                                                <use href='./svg/sprite.svg#icon-right'></use>
+                                            </svg></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="slider-2" class='slider__item'>
-                            <picture>
-                                <source srcset='./img/hero/2.webp 1x, ./img/hero/2@2x.webp 2x' type='image/webp'>
-                                <source srcset='./img/hero/2.jpg 1x, ./img/hero/2@2x.jpg 2x'>
-                                <img src="./img/hero/2.jpg" alt="Ліжко">
-                            </picture>
-                            <div class='slider__content'>
-                                <h1 class='slider__title'>Новинка!</h1>
-                                <h3 class='slider__sub-title'>Двері</h3>
-                                <p class='slider__description'>Це новий рівень комфортного сну</p>
-                                <a rel='noopener no-referrel nofollow' class='slider__link _link' href=''>Детальніше</a>
-                                <p class='slider__position'><span class="slider__active">02</span><span
-                                        class="slider__next">/04</span></p>
-                                <div class='slider__container-btn'>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-1'><svg class='slider__icon'>
-                                            <use href='./svg/sprite.svg#icon-arrow-left'></use>
-                                        </svg></a>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-3'><svg class="slider__icon">
-                                            <use href='./svg/sprite.svg#icon-arrow-right'></use>
-                                        </svg></a>
+                        <div class="image-slider__slide swiper-slide-hero swiper-slide">
+                            <div class="image-slider__image">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">01</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+                                    <div class='slider__container-btn'>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-4'><svg class='slider__icon'>
+                                                <use href='./svg/sprite.svg#icon-arrow-left'></use>
+                                            </svg></a>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-2'><svg class="slider__icon">
+                                                <use href='./svg/sprite.svg#icon-arrow-right'></use>
+                                            </svg></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="slider-3" class='slider__item'>
-                            <picture>
-                                <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
-                                <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
-                                <img src="./img/hero/1.jpg" alt="Ліжко">
-                            </picture>
-                            <div class='slider__content'>
-                                <h1 class='slider__title'>Новинка!</h1>
-                                <h3 class='slider__sub-title'>Стіець</h3>
-                                <p class='slider__description'>Це новий рівень комфортного сну</p>
-                                <a rel='noopener no-referrel nofollow' class='slider__link _link' href=''>Детальніше</a>
-                                <p class='slider__position'><span class="slider__active">03</span><span
-                                        class="slider__next">/04</span></p>
-                                <div class='slider__container-btn'>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-2'><svg class='slider__icon'>
-                                            <use href='./svg/sprite.svg#icon-arrow-left'></use>
-                                        </svg></a>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-4'><svg class="slider__icon">
-                                            <use href='./svg/sprite.svg#icon-arrow-right'></use>
-                                        </svg></a>
+                        <div class="image-slider__slide swiper-slide-hero swiper-slide">
+                            <div class="image-slider__image">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">01</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+                                    <div class='slider__container-btn'>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-4'><svg class='slider__icon'>
+                                                <use href='./svg/sprite.svg#icon-arrow-left'></use>
+                                            </svg></a>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-2'><svg class="slider__icon">
+                                                <use href='./svg/sprite.svg#icon-arrow-right'></use>
+                                            </svg></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="slider-4" class='slider__item'>
-                            <picture>
-                                <source srcset='./img/hero/2.webp 1x, ./img/hero/2@2x.webp 2x' type='image/webp'>
-                                <source srcset='./img/hero/2.jpg 1x, ./img/hero/2@2x.jpg 2x'>
-                                <img src="./img/hero/2.jpg" alt="Ліжко">
-                            </picture>
-                            <div class='slider__content'>
-                                <h1 class='slider__title'>Новинка!</h1>
-                                <h3 class='slider__sub-title'>Диван</h3>
-                                <p class='slider__description'>Це новий рівень комфортного сну</p>
-                                <a rel='noopener no-referrel nofollow' class='slider__link _link' href=''>Детальніше</a>
-                                <p class='slider__position'><span class="slider__active">04</span><span
-                                        class="slider__next">/04</span></p>
-                                <div class='slider__container-btn'>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-3'><svg class='slider__icon'>
-                                            <use href='./svg/sprite.svg#icon-arrow-left'></use>
-                                        </svg></a>
-                                    <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
-                                        href='#slider-1'><svg class="slider__icon">
-                                            <use href='./svg/sprite.svg#icon-arrow-right'></use>
-                                        </svg></a>
+                        <div class="image-slider__slide swiper-slide-hero swiper-slide">
+                            <div class="image-slider__image">
+                                <picture>
+                                    <source srcset='./img/hero/1.webp 1x, ./img/hero/1@2x.webp 2x' type='image/webp'>
+                                    <source srcset='./img/hero/1.jpg 1x, ./img/hero/1@2x.jpg 2x'>
+                                    <img class="slider__content-img" src="./img/hero/1.jpg" alt="Ліжко">
+                                </picture>
+                                <div class='slider__content'>
+                                    <h1 class='slider__title'>Новинка!</h1>
+                                    <h3 class='slider__sub-title'>Ліжко Ornella</h3>
+                                    <p class='slider__description'>Це новий рівень комфортного сну</p>
+                                    <a rel='noopener no-referrel nofollow' class='slider__link _link'
+                                        href=''>Детальніше</a>
+                                    <p class='slider__position'><span class="slider__active">01</span><span
+                                            class="slider__next">/04</span>
+                                    </p>
+                                    <div class='slider__container-btn'>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-4'><svg class='slider__icon'>
+                                                <use href='./svg/sprite.svg#icon-arrow-left'></use>
+                                            </svg></a>
+                                        <a rel='noopener no-referrel nofollow' class='slider__btn-link _link'
+                                            href='#slider-2'><svg class="slider__icon">
+                                                <use href='./svg/sprite.svg#icon-arrow-right'></use>
+                                            </svg></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -373,6 +399,7 @@
                     <div class="swiper-button-next"><svg class="swiper-button-svg">
                             <use href='./svg/sprite.svg#icon-right'></use>
                         </svg></div>
+
 
 
                     <div class="image-slider__wrapper swiper-wrapper">
@@ -483,12 +510,378 @@
                         </div>
 
                     </div>
-                    <!-- Добавляем если нам нужны стрелки управления -->
 
-                    <!-- Добавляем, если нам нужна пагинация -->
                     <div class="swiper-pagination"></div>
 
                 </div>
+        </section>
+        <!-- goods -->
+        <section class='goods__section _section'>
+            <div class='goods__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Категорії товарів</h2>
+                </div>
+                <div class='goods__tabs'>
+                    <ul class="tabs__list">
+                        <li data-tab="tab-01" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-living-room'></use>
+                            </svg> Дивани</li>
+                        <li data-tab="tab-02" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-bedroom'></use>
+                            </svg> Ліжка</li>
+                        <li data-tab="tab-03" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-armchair'></use>
+                            </svg> Крісла</li>
+                        <li data-tab="tab-04" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-wardrobe'></use>
+                            </svg> Комоди</li>
+                        <li data-tab="tab-05" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-wardrobe-1'></use>
+                            </svg> Шафи</li>
+                        <li data-tab="tab-06" class="tabs__item _list"><svg class='tabs__icon'>
+                                <use href='./svg/sprite.svg#icon-kitchen'></use>
+                            </svg> Кухня</li>
+                    </ul>
+                    <div class='tabs__body'>
+                        <div id="tab-01" class='tabs__block  '>1 Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-02" class='tabs__block hidden'>Ліжка Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-03" class='tabs__block hidden'>Крісла Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-04" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-05" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                        <div id="tab-06" class='tabs__block hidden'>комоди Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
+                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
+                            enim.</div>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem reiciendis quia quasi
+                    aspernatur! Consequuntur illo voluptatum nemo in, magni ipsa obcaecati modi nam magnam repellat
+                    quia. Voluptatibus quia repudiandae ab.
+                    Necessitatibus ex voluptatibus expedita possimus cum tempore nostrum optio unde cupiditate culpa
+                    libero, corrupti deleniti quod quam veritatis labore aspernatur ipsum velit modi nemo aperiam. Ex
+                    aspernatur eveniet exercitationem adipisci?
+                    Unde fugit aspernatur similique in voluptate ipsa suscipit tempora quas illo? Molestiae accusantium
+                    repudiandae numquam voluptates voluptas sint cumque asperiores maxime, nihil vitae blanditiis, autem
+                    excepturi fugit facere quae perspiciatis?
+                    Quam enim culpa quod quo voluptatem consequuntur expedita, doloremque fugit illo dolorum? Debitis
+                    dicta soluta voluptatibus nihil obcaecati explicabo eveniet mollitia impedit officiis, excepturi
+                    illum maiores vero eos quibusdam sed.
+                    Aperiam voluptatibus quia quibusdam id neque itaque architecto totam! Ut vitae, iusto dicta,
+                    necessitatibus officia mollitia, fugit voluptates est debitis blanditiis minus veniam tempora a
+                    voluptate error soluta? Corrupti, laudantium!
+                    Accusamus libero minima harum provident ipsum, blanditiis maxime nostrum reiciendis unde hic nulla
+                    aliquam, adipisci excepturi dolorum ad alias! Aspernatur ipsum autem molestias? Repudiandae
+                    perspiciatis reprehenderit rem maxime odio nulla.
+                    Illo distinctio magnam commodi libero debitis laudantium iusto. Quaerat nobis ducimus debitis at quo
+                    odit voluptatem cum molestiae est nemo, temporibus illo quisquam saepe recusandae corporis totam
+                    voluptatibus? Quaerat, quidem.
+                    Deserunt, minima ad. Officia ducimus cum iste aliquam aliquid expedita dolor nemo eos porro
+                    doloremque quas totam beatae autem labore natus pariatur, tempore placeat odio neque recusandae
+                    possimus. Fuga, exercitationem!
+                    Temporibus quo omnis consectetur eveniet exercitationem ex cumque tempora quidem repellat, vero
+                    repudiandae quaerat, illo nemo ut id at obcaecati eius impedit odit facere. Reiciendis harum
+                    asperiores in veniam temporibus.
+                    Incidunt, vel, voluptatem, natus esse tenetur explicabo quos quasi inventore quo voluptas dicta
+                    dolorem laboriosam ad maxime tempore impedit rem. Aperiam voluptas cumque delectus commodi harum!
+                    Labore repellendus quidem quia.
+                    Ut perspiciatis, sint aliquam, aliquid ratione voluptatibus iusto alias cumque dicta dolores ipsum
+                    distinctio illo numquam neque. Necessitatibus velit ullam, commodi et cum culpa nulla suscipit esse,
+                    molestias maxime tempore.
+                    Natus optio, autem quis quisquam pariatur, voluptates eos nulla sint omnis totam consequatur iusto
+                    sit, qui aut! Sunt repellat quaerat ipsa laboriosam. Natus sit et, ipsum repudiandae consectetur
+                    laudantium perferendis?
+                    Cupiditate laborum amet consequuntur quo obcaecati, sint placeat omnis aut laudantium adipisci fuga
+                    excepturi aliquam, doloribus eius. Eligendi amet explicabo accusamus et inventore provident,
+                    blanditiis ipsum non, suscipit sit magnam?
+                    Eius praesentium dolores velit ab similique dicta vel maxime in quibusdam saepe, fugit hic porro
+                    pariatur reprehenderit ut dolore neque vitae, distinctio ipsa ullam voluptatem temporibus nemo
+                    atque. Veniam, excepturi.
+                    Modi vel nostrum cumque eius earum quasi eaque quidem. Perspiciatis corporis temporibus molestias
+                    iusto excepturi nam, fugiat alias possimus dolores mollitia assumenda! Ad eligendi tenetur molestiae
+                    nostrum debitis voluptatibus qui!
+                    Iusto culpa exercitationem vitae ipsam. Quasi eveniet, magni quia provident quis illum similique
+                    deserunt alias ducimus adipisci voluptas tempore fugit excepturi assumenda reiciendis magnam enim!
+                    Voluptatem unde hic dignissimos consequatur.
+                    A aut unde, voluptates ipsum temporibus repudiandae eos reiciendis accusantium similique nam
+                    adipisci voluptas, et inventore asperiores? Fuga eius ipsa sint quaerat. Enim consectetur dicta
+                    natus modi adipisci provident rem.
+                    Sapiente ducimus labore necessitatibus inventore nihil eaque et fuga cumque provident iure tempora
+                    fugiat, aperiam quasi, nulla iusto harum vitae asperiores ea nostrum accusamus distinctio
+                    consequuntur! Reiciendis fugiat delectus sunt?
+                    Eum eius suscipit adipisci, rerum iusto, consequuntur ipsum porro numquam dolor corrupti dolore
+                    corporis itaque quae iure maiores quam error nobis totam. Iste eos quod enim, excepturi illum
+                    provident facilis.
+                    Corrupti dolor vel laboriosam voluptas hic corporis impedit praesentium, nam ipsum repellat rerum ea
+                    adipisci soluta aliquam aliquid iusto. Porro id repellendus repellat obcaecati ex perspiciatis
+                    numquam ipsam non nostrum.
+                    Nesciunt asperiores, saepe laboriosam repellat provident incidunt eius optio repellendus, quas qui
+                    earum quia est veniam aliquam porro facilis aspernatur doloremque. Aperiam eum, quidem veritatis
+                    officiis earum unde esse ratione?
+                    Iste dignissimos non, nostrum a maxime nam, perferendis delectus perspiciatis assumenda, dolore
+                    placeat rerum sed alias ratione iusto molestiae corrupti. Id sit, est commodi optio odio corrupti
+                    natus repellat accusamus!
+                    Possimus, illo! Culpa recusandae ipsa iste numquam, id molestias assumenda nulla velit hic magnam
+                    porro consectetur alias officia natus debitis cum doloribus sint laboriosam necessitatibus dolorum
+                    provident veritatis vero in!
+                    Quisquam inventore, ea, delectus unde quidem culpa amet eveniet quam cum repellendus atque. Nostrum
+                    sit voluptas voluptate commodi atque officia at dolorem itaque asperiores voluptatem officiis,
+                    laudantium vero soluta iste.
+                    Veniam, voluptatem excepturi commodi tempore, optio dignissimos vitae suscipit iure voluptatum nihil
+                    nisi deserunt nobis eum quod eius consequuntur laborum dolores maiores esse molestiae? Vero magnam
+                    voluptatum exercitationem voluptatem quidem!
+                    Laboriosam distinctio fugit, porro officia eum repellat nihil praesentium ratione ipsum reiciendis,
+                    quibusdam cumque quae, laborum expedita nemo? Quaerat libero quasi ipsa a neque expedita esse rem
+                    mollitia quis eligendi.
+                    Rem nobis qui nemo perferendis incidunt. Aut et, eveniet perferendis eos magnam similique
+                    consectetur ullam repellat, vel aliquid consequatur? Hic nesciunt voluptates necessitatibus adipisci
+                    sapiente debitis porro soluta blanditiis delectus.
+                    Facere quaerat enim vitae veritatis obcaecati quam hic, dolore esse distinctio atque dicta dolores
+                    natus iusto quas laboriosam aperiam? Eos et optio minima ipsa atque maiores, deserunt ratione nisi
+                    dolore!
+                    Facere exercitationem atque debitis praesentium. Veritatis magni alias fugiat doloribus ad error
+                    repudiandae, id ex tempore assumenda quaerat sequi. Corporis dolorem aspernatur beatae repudiandae
+                    repellendus saepe, inventore nobis reiciendis quos!
+                    Vero reprehenderit sequi veritatis itaque eius, eveniet ab qui voluptates quos maxime natus
+                    provident cupiditate eligendi at odio consequatur animi saepe inventore fugit nulla blanditiis
+                    repellendus unde, ut sint. Libero?
+                    Expedita deserunt magnam eos ea illo. Aspernatur quos ab, voluptates molestias suscipit doloribus
+                    impedit nam rerum ratione blanditiis tempore dicta, consequuntur mollitia adipisci tempora aliquam
+                    nobis! Commodi inventore nobis dolor.
+                    Aperiam qui iste eligendi sequi? In reprehenderit, repudiandae expedita dolor recusandae voluptatem,
+                    placeat explicabo, veritatis nam culpa officiis id quos tenetur illo. Reprehenderit porro dolorem
+                    nam iste inventore deleniti obcaecati.
+                    Illo quidem ipsum culpa iure perspiciatis. Cumque amet id modi nulla, maxime ut dolore quasi
+                    molestias esse adipisci corrupti autem iure repellat quaerat maiores nemo laudantium, qui soluta
+                    illo saepe.
+                    Iste alias enim repudiandae non. Dolore voluptatum porro laudantium recusandae harum natus delectus,
+                    quo distinctio libero deserunt dolorem esse, illo expedita aspernatur saepe vel, non ad optio quam
+                    excepturi ratione!
+                    Rem blanditiis ullam facilis impedit reiciendis vitae, a voluptatem. Quas vitae sed eaque eius
+                    laboriosam reiciendis laudantium recusandae voluptate! Reprehenderit ea deleniti iure pariatur,
+                    distinctio alias quam illum suscipit dignissimos.
+                    Aperiam, nobis autem omnis hic neque dolores aliquid dolorum ullam inventore! Nobis optio odit
+                    aliquid ab vitae accusamus. Repellendus quod voluptatum voluptate enim. Assumenda tempore dolore
+                    vitae minima beatae earum.
+                    Quasi tenetur porro dolores perferendis tempora cumque consequatur culpa dicta commodi omnis ratione
+                    officia debitis fugiat praesentium beatae ex nihil corrupti voluptatem, dolorem quibusdam pariatur
+                    unde laboriosam ducimus. Facilis, distinctio.
+                    Magnam accusantium eveniet nihil accusamus debitis nulla, eaque ratione quasi velit corporis natus
+                    temporibus ex voluptas, ea nemo dignissimos quod optio? Sit esse, libero non et temporibus nostrum
+                    quia ad?
+                    Distinctio dicta aliquam incidunt earum nam ullam molestiae recusandae mollitia sequi nemo
+                    architecto expedita nulla nesciunt molestias repellat et aspernatur, animi ut. Illum eligendi at qui
+                    modi tempore veritatis rem.
+                    Voluptatum a maiores libero neque reiciendis dignissimos maxime cum itaque sit eos eum error
+                    quisquam, illum est deleniti amet corporis dolorem eius consectetur aut, inventore quaerat quidem
+                    corrupti. Minima, itaque.
+                    Sequi laudantium illo possimus qui beatae, pariatur consequuntur sit exercitationem odit dolores
+                    cumque tempora, libero, commodi inventore sint quidem eveniet recusandae iusto nihil accusamus
+                    voluptatem assumenda dolor. Incidunt, possimus hic.
+                    Unde repudiandae assumenda dolorum. Dolorem odio tempore maxime sit recusandae dolores, quis neque
+                    repudiandae animi provident dolore sed delectus tenetur praesentium ipsa soluta numquam distinctio
+                    consequuntur sapiente repellat architecto excepturi?
+                    Temporibus cum voluptatum, vel maiores tempore adipisci ad. Quaerat dolore tempore eveniet adipisci,
+                    veniam repellendus, obcaecati repellat incidunt architecto assumenda voluptatum odit. Possimus
+                    aperiam asperiores totam, aliquam fugiat corrupti animi.
+                    Quisquam, veniam. Ipsum quo minima nihil facere aliquid eius et iste, quos quisquam, non aspernatur?
+                    Est iste nulla mollitia! Atque, incidunt. Omnis possimus repudiandae ipsam veniam iure repellendus,
+                    mollitia odit!
+                    Illum ratione molestias, veniam reiciendis provident optio nobis velit facere placeat, labore
+                    laboriosam totam commodi sequi corporis. Cumque, repellendus optio, accusantium nam delectus
+                    molestias itaque ad deleniti, exercitationem laudantium dolorum.
+                    Voluptatibus, ut, minima quasi corrupti, ea veniam nam dolorum earum voluptate assumenda dolor hic
+                    autem perspiciatis molestias asperiores porro molestiae accusamus et. Non, reprehenderit nulla
+                    architecto rem harum eum molestiae.
+                    Odio veritatis, corporis nobis at corrupti possimus quia error similique nostrum earum, quis
+                    accusamus? Fugiat, natus ullam illo sapiente nesciunt harum dolores vero. Culpa amet ab veritatis
+                    laborum iure vero.
+                    Aut aliquid iusto molestiae natus velit modi, doloribus quam, soluta numquam, perspiciatis veritatis
+                    mollitia odio esse beatae quibusdam dicta. Voluptatem, obcaecati? Reprehenderit inventore ratione
+                    dolor? Eos qui ipsa cupiditate consequuntur.
+                    Deleniti a provident soluta! Omnis laudantium dolorem pariatur. Ipsam velit cumque eligendi dolorem,
+                    vel voluptates sed, accusantium, magnam neque fugiat beatae aperiam perspiciatis mollitia nemo
+                    minima quod sunt? Eum, nam.
+                    Quam, consequuntur veritatis! Animi, incidunt in sed tempora laudantium quam soluta officia modi est
+                    dolore praesentium, culpa ducimus eligendi aspernatur similique numquam quibusdam. Cumque ut
+                    voluptatibus velit accusamus magnam eaque?
+                    Et nihil odit, suscipit quam sit ullam in architecto maxime quidem repellat numquam culpa optio
+                    recusandae laudantium quos harum pariatur sint nemo dignissimos doloremque. Doloribus quis
+                    dignissimos ut obcaecati perferendis.
+                    Quas, repellat eaque non unde quia quos veniam laborum in minima provident quae ut voluptatum,
+                    exercitationem saepe atque explicabo, dolores perferendis nam. Atque nobis voluptatibus dignissimos
+                    aspernatur, animi maiores omnis?
+                    Quibusdam, aliquid? Eligendi non laboriosam nihil temporibus eum quo iste cupiditate culpa iure
+                    debitis repellendus atque at sunt, aspernatur cum distinctio vero, architecto praesentium ducimus
+                    esse sed! Rerum, quam provident.
+                    Beatae saepe doloremque, similique tempora necessitatibus accusantium cupiditate vitae magnam ut sit
+                    quae amet? Nam exercitationem ipsa quas sunt numquam harum ratione, nulla unde et nesciunt
+                    blanditiis consequuntur ducimus explicabo?
+                    Ad enim nesciunt minima. Quisquam odit nisi ullam ducimus minus, dolor inventore, similique corporis
+                    in rerum est harum aut hic. Impedit numquam exercitationem a maiores ipsa iure natus aliquam
+                    tempore?
+                    Ipsam ab nisi accusantium, ut officia hic architecto quis, fugiat repellendus neque nesciunt quia
+                    facilis consequuntur. Dicta, facere, minus reprehenderit quaerat sed, maiores expedita sit magni
+                    voluptatibus recusandae amet debitis.
+                    Unde ad praesentium commodi magnam facilis est aliquid temporibus, recusandae ab odio cupiditate,
+                    beatae quod sed sapiente hic iure alias molestias eius necessitatibus, earum cumque rerum
+                    dignissimos et. Saepe, corporis?
+                    Vel veritatis error minus qui minima aspernatur sunt. Quam debitis porro ullam, repellat molestiae
+                    magnam vel voluptatibus est, deserunt velit, illo doloribus asperiores perspiciatis molestias earum
+                    corrupti et at consectetur.
+                    Aliquid harum error illo molestiae laborum porro repellendus similique qui vitae! Harum minus
+                    voluptatem nobis, cumque voluptas incidunt nostrum molestiae illo esse veritatis voluptate
+                    repudiandae quia earum saepe recusandae suscipit.
+                    Est debitis exercitationem excepturi nihil neque soluta qui eos repudiandae, natus similique amet
+                    consectetur itaque esse assumenda maiores odit iste expedita ut? Commodi obcaecati asperiores
+                    quisquam ipsa adipisci sit velit.
+                    Harum maiores quisquam fugiat! Vel molestias quaerat consequatur iste neque! Nam saepe consequuntur
+                    cupiditate, officiis distinctio animi tenetur, aperiam quaerat beatae laborum dolor aspernatur alias
+                    eaque perferendis impedit excepturi magni.
+                    Vero, neque! Illo quaerat vel commodi ipsum harum suscipit, sed nulla sunt amet consequatur tempora
+                    voluptatum fuga, cum voluptatem magnam. Porro aperiam, quod accusantium sequi cumque quam ad?
+                    Aliquam, molestiae?
+                    Suscipit nostrum assumenda facilis sapiente dolore dolorum minima saepe cupiditate, possimus iste,
+                    eaque asperiores id? Impedit explicabo eveniet excepturi possimus eum. Quisquam esse mollitia
+                    veritatis nesciunt laboriosam doloremque reiciendis odit.
+                    Reiciendis enim dolorem nihil consequatur dicta ad numquam, facere laudantium pariatur eos libero
+                    voluptas sequi ipsa a voluptate illum rerum hic! Minima, culpa commodi necessitatibus nam esse
+                    numquam aperiam. Aut!
+                    Ex tempore pariatur similique quo fuga error explicabo placeat iure officia reiciendis optio
+                    eligendi magnam quod ipsum, mollitia ullam, necessitatibus aperiam atque eos obcaecati. Excepturi
+                    consequuntur similique a omnis veritatis.
+                    Omnis ut eum similique accusamus itaque. Dolorem delectus deserunt nemo provident exercitationem
+                    sed, rerum optio minus dolorum. Reiciendis, dolore minima. Optio officiis aspernatur pariatur
+                    commodi suscipit tenetur vero eligendi fugit.
+                    Perspiciatis, eos, fugiat aperiam quas qui nesciunt eius minima, delectus incidunt adipisci minus ex
+                    odio ipsa corporis sed beatae non tempora id dicta maiores dolorem. Soluta vitae molestiae
+                    exercitationem necessitatibus.
+                    Quisquam eos alias aut molestiae reprehenderit harum autem, iste, saepe nobis hic totam? Odit,
+                    maiores ratione dolorem sequi vero doloremque, illum quis exercitationem tempore, blanditiis itaque
+                    placeat recusandae dolorum nulla.
+                    Fugit, laboriosam dolor. Numquam amet, fugit quibusdam porro cupiditate hic maxime? Quas vel
+                    cupiditate dignissimos, natus quisquam, velit veniam blanditiis ad quaerat quos, quibusdam placeat
+                    reiciendis earum autem at illo.
+                    Vitae ducimus quae neque fugiat atque reiciendis, reprehenderit facere illum, excepturi similique
+                    dicta amet libero magni impedit accusantium veritatis. Totam nemo laudantium exercitationem sunt
+                    modi earum labore culpa vero nobis.
+                    Ad amet praesentium nemo odit a eligendi deleniti perferendis alias modi non doloremque velit,
+                    voluptatibus sed repellendus adipisci obcaecati facere esse beatae assumenda ex cumque itaque sequi
+                    ipsum? Voluptatibus, eligendi.
+                    Cupiditate porro expedita voluptas. Enim officiis magnam iure deleniti, itaque ipsam. Aliquid
+                    impedit harum id. Commodi consequuntur veritatis eveniet doloribus dolore eligendi nisi nobis in
+                    voluptas modi quod, provident minima.
+                    Minus aliquam dicta officiis pariatur unde, ea et quisquam, ex tempora quidem consequatur, hic quis
+                    repudiandae iste praesentium nisi libero fugiat. Sunt quam illo exercitationem blanditiis iste?
+                    Deserunt, unde aliquid!
+                    Quo architecto quam eum magnam voluptate enim voluptatem tenetur debitis quas molestiae beatae odit,
+                    voluptatibus quisquam aliquam asperiores qui quaerat deleniti aliquid sequi, rem ipsum autem
+                    suscipit exercitationem? Culpa, animi.
+                    Molestias error iusto blanditiis tenetur corporis. Hic voluptates recusandae voluptatum sed itaque
+                    aut expedita earum doloremque fugiat repudiandae, perspiciatis, eveniet animi nemo nisi eligendi.
+                    Magni vitae nihil veniam nisi! Corrupti.
+                    Nostrum numquam repellat, consequatur pariatur consectetur at id cupiditate, ipsa corporis soluta
+                    adipisci recusandae ea? Eos mollitia quis exercitationem quam cumque sint est dolore labore ratione!
+                    Fuga ipsam cumque adipisci!
+                    Tempore maxime corporis eligendi eaque autem fuga omnis, iusto recusandae praesentium maiores
+                    expedita delectus nihil. Earum, dolor voluptatum, nisi hic magni reprehenderit nam dolores rem harum
+                    sed dolore eum quia?
+                    Ipsam voluptatibus voluptas animi deserunt vel officiis quis repellat delectus accusantium atque
+                    corrupti, iste sint, quibusdam qui quaerat possimus repudiandae mollitia illo quae? Quaerat natus
+                    eos nulla neque officiis doloribus!
+                    Odit ipsa ab odio blanditiis est nisi, natus pariatur repellat adipisci doloribus nam hic velit eius
+                    sit minus? Quibusdam placeat magnam sequi enim tenetur sed alias esse fugit assumenda hic?
+                    Similique vitae, non beatae et, itaque officiis commodi, doloremque aliquid numquam magnam
+                    quibusdam? Dicta sapiente error, maiores consequuntur illum rem, quod natus quibusdam eveniet
+                    pariatur id libero dolor laboriosam commodi.
+                    Alias deserunt accusamus vitae velit debitis libero, eos odit excepturi assumenda maiores vero,
+                    cumque earum suscipit vel ad aliquid. Nobis repellendus inventore praesentium accusamus facere
+                    debitis veniam exercitationem ratione omnis?
+                    Dolorem natus officiis est fuga porro eos placeat molestias iste fugiat! Consectetur amet architecto
+                    neque illo, dolorem placeat iste reprehenderit iure ratione nobis facere corrupti, nemo non
+                    repudiandae optio rem.
+                    Voluptates amet possimus harum dolorum nesciunt libero laborum earum iste est repudiandae labore,
+                    quos nostrum nemo veritatis expedita eaque error autem omnis ipsam molestiae saepe corporis vitae
+                    enim! Quas, cum!
+                    Rem in, mollitia natus quae temporibus asperiores blanditiis fugiat vero laborum nam ipsa quasi
+                    tempore et dicta consequatur molestias quam, itaque omnis atque est odit? Laborum est unde neque
+                    doloribus.
+                    Voluptas optio ipsam velit facere debitis dolor aliquid labore voluptatum dolores doloremque error
+                    ratione amet harum ullam recusandae, nihil nesciunt provident alias ea, sapiente deleniti nulla fuga
+                    veritatis sed. Adipisci!
+                    Illo aperiam dolor quos doloribus soluta, fuga voluptas id facere sint recusandae nisi, perspiciatis
+                    nam quia, amet magni possimus rem iusto dolores vitae corrupti unde enim! Necessitatibus eius
+                    nesciunt non!
+                    Distinctio veritatis recusandae repudiandae quidem sapiente! Tempore, architecto tempora. Deserunt
+                    reiciendis dolor veniam vitae sit recusandae! Tempore vel commodi aliquam repellat eum pariatur
+                    alias harum a, optio velit inventore nisi.
+                    Similique, adipisci odit. Ut modi ducimus soluta amet veniam alias perspiciatis quos, itaque
+                    officiis fuga ratione asperiores accusantium provident nihil voluptatem tempora ab sint magni optio
+                    quaerat deleniti ex consequatur.
+                    Nobis, quos deserunt incidunt exercitationem quas ipsum officia dignissimos hic itaque consequuntur
+                    praesentium aliquid vitae nesciunt culpa unde possimus natus architecto nostrum vel, eligendi vero
+                    fuga cumque laborum necessitatibus. Eveniet.
+                    Maiores eum nesciunt, fuga illum rem accusantium doloremque! Error nesciunt itaque, tempora dolores
+                    totam vel voluptates perspiciatis, quas cupiditate, cumque expedita architecto reiciendis laboriosam
+                    commodi inventore optio! Dignissimos, facilis eligendi?
+                    Explicabo, consequatur assumenda. Temporibus quae molestiae hic explicabo odio non illo corrupti,
+                    totam praesentium dolores aliquid culpa nesciunt nihil esse quos odit dolor possimus quisquam
+                    blanditiis quia veritatis vel sunt.
+                    Rem pariatur explicabo earum dolore, quae beatae quidem accusamus iusto assumenda ratione.
+                    Asperiores, optio. Suscipit architecto, asperiores aspernatur soluta dolorum qui adipisci minus eum
+                    saepe similique repellendus dignissimos, at necessitatibus.
+                    Consequuntur libero molestias totam quisquam voluptates id, sunt mollitia, deserunt laboriosam
+                    recusandae voluptate perferendis quidem ut hic sint optio ea, repellat ex placeat! Impedit veniam
+                    soluta tempore, tenetur distinctio quisquam?
+                    Culpa sequi et dolore odio. Suscipit tempore sequi ut corporis ipsum soluta fugiat dolores,
+                    aspernatur quo, architecto nemo officiis doloribus veritatis natus accusamus minus vel dolore
+                    praesentium mollitia iste distinctio?
+                    Non nam magnam necessitatibus, nesciunt maiores sint aperiam ut doloremque cumque impedit maxime ad
+                    dolor inventore vel ducimus natus id nostrum laborum minima minus tempore eligendi dignissimos
+                    dolorem blanditiis! Quisquam.
+                    Suscipit dicta voluptate architecto soluta ipsam non delectus minus eum quasi, vitae possimus quas
+                    doloribus voluptas doloremque nisi aliquid animi eaque facilis mollitia odit qui laudantium sit!
+                    Quam, quaerat vel?
+                    Consectetur unde doloremque aperiam explicabo nesciunt consequuntur, repellendus dicta natus, optio
+                    aliquid quis ex nisi ducimus distinctio fugiat! Dolorum nostrum autem, modi odit vel nemo iure
+                    inventore magni quo iusto.
+                    Vero laboriosam rerum placeat, optio est perspiciatis ea similique sequi labore et ipsum, ipsa
+                    officiis reprehenderit nostrum quas incidunt praesentium id. Eius dolorum maiores at optio a sit
+                    labore nostrum.
+                    Doloribus, incidunt quae, enim qui placeat consectetur doloremque accusantium harum nulla
+                    perspiciatis tempora impedit cumque mollitia saepe unde labore sed recusandae nisi. Perferendis
+                    maiores vero harum natus atque, quod sed?
+                    Natus aliquid architecto animi velit. Dolorum, repudiandae. Pariatur, nobis voluptatibus? Velit quod
+                    doloribus fuga consectetur doloremque quae deleniti similique saepe? Repellendus quia nisi impedit
+                    qui vitae natus doloribus optio reprehenderit?
+
+
+                </div>
+            </div>
         </section>
 
 
@@ -499,6 +892,7 @@
     <script src="./js/mobile-menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/swiper-advantages.js"></script>
+    <script src="./js/tabs.js"></script>
 </body>
 
 

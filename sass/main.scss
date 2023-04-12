@@ -4,7 +4,11 @@
 @import "header.scss";
 @import "hero.scss";
 @import "advantages.scss";
+@import "goods.scss";
 
-// * {
-//   outline: 1px solid rgb(243, 18, 18);
-// }
+goods.scss
+// @import "categories.scss";
+
+* {
+  outline: 1px solid rgb(243, 18, 18);
+}

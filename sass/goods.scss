@@ -1,0 +1,80 @@
+.goods__tabs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.tabs__list {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+  }
+}
+
+// .elem {
+//       overflow: auto;
+//       -ms-overflow-style: none;
+//       scrollbar-width: none;
+// }
+
+.tabs__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  //   width: 110px;
+  //   height: 110px;
+  font-size: 24px;
+  line-height: $line-height;
+  gap: 10px;
+  &:hover .tabs__icon,
+  &:focus .tabs__icon {
+    fill: $color_accent;
+  }
+  &:focus-visible {
+    outline: 2px solid crimson;
+    border-radius: 3px;
+  }
+}
+._list {
+}
+.tabs__link {
+  display: flex;
+}
+._link {
+}
+.tabs__icon {
+  width: 100px;
+  height: 100px;
+  @media screen and (max-width: 767px) {
+    width: 90px;
+    height: 90px;
+  }
+}
+.hidden {
+  display: none;
+}
+.tabs__item.active .tabs__icon {
+  fill: $color_accent;
+}
+.tabs__item.active {
+  position: relative;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: $color_accent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+.tabs__body {
+  margin-bottom: 20px;
+}

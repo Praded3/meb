@@ -72,7 +72,7 @@
                     <nav class="header__menu">
                         <ul class="header__list">
                             <li class="header__item _list">
-                                <a href="" class="header__link _link">Головна</a>
+                                <a href="" class="header__link header__link-active _link">Головна</a>
 
                             </li>
                             <li class="header__item _list">
@@ -250,7 +250,7 @@
     </header>
     <main>
         <!-- hero -->
-        <!-- <section class='hero__section _section'>
+        <section class='hero__section _section'>
             <div class='hero__container _container'>
                 <div class="image-slider swiper-container image-slider-hero">
                     <div class="swiper-button-prev"><svg class="swiper-button-svg">
@@ -384,9 +384,9 @@
                 </div>
             </div>
 
-        </section> -->
+        </section>
         <!-- advantages  -->
-        <!-- <section class='advantages__section _section'>
+        <section class='advantages__section _section'>
             <div class='advantages__container _container'>
                 <div class="__title">
                     <h2 class='section__title'>Наші переваги</h2>
@@ -514,7 +514,7 @@
                     <div class="swiper-pagination"></div>
 
                 </div>
-        </section> -->
+        </section>
         <!-- goods -->
         <section class='goods__section _section'>
             <div class='goods__container _container'>
@@ -526,7 +526,7 @@
                         <li data-tab="tab-01" class="tabs__item _list"><svg class='tabs__icon'>
                                 <use href='./svg/sprite.svg#icon-living-room'></use>
                             </svg> Дивани</li>
-                        <li data-tab="tab-02" class="tabs__item _list"><svg class='tabs__icon'>
+                        <li data-tab="tab-02" class="tabs__item _list active-tab"><svg class='tabs__icon'>
                                 <use href='./svg/sprite.svg#icon-bedroom'></use>
                             </svg> Ліжка</li>
                         <li data-tab="tab-03" class="tabs__item _list"><svg class='tabs__icon'>
@@ -542,18 +542,141 @@
                                 <use href='./svg/sprite.svg#icon-kitchen'></use>
                             </svg> Кухня</li>
                     </ul>
-                    <div class='tabs__body'>
-                        <div id="tab-01" class='tabs__block  '>1 Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                            Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
-                            esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
-                            enim.</div>
-                        <div id="tab-02" class='tabs__block hidden'>Ліжка Lorem ipsum dolor sit amet consectetur
+                    <div class='tabs__body '>
+                        <div id="tab-01" class='tabs__block  hidden'>1 Lorem ipsum dolor sit amet consectetur
                             adipisicing
                             elit.
                             Iste sunt harum, fugit, voluptas et voluptatem necessitatibus aliquid architecto cupiditate
                             esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
                             enim.</div>
+                        <div id="tab-02" class='tabs__block'>
+                            <ul class='tab__list'>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/1.webp 1x, ./img/goods/bedroom/1@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/1.jpg 1x, ./img/goods/bedroom/1@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/1.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Рамона</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+                                        </div>
+                                        <div class="tab__novelty-container">
+                                            <p class='tab__novelty'>Новинка</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class='tab__item  _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/2.webp 1x, ./img/goods/bedroom/2@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/2.jpg 1x, ./img/goods/bedroom/2@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/2.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Честер</h4>
+                                            <p class='tab__price tab__action-price'>8 999 грн</p>
+                                            <p class='tab__old-price'>8 999 грн</p>
+                                        </div>
+                                        <div class='tab__sale-container'>
+                                            <p class='tab__sale'><span>Хіт продаж</span></p>
+                                            <p class='tab__action'><span>Акція</span></p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/3.webp 1x, ./img/goods/bedroom/3@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/3.jpg 1x, ./img/goods/bedroom/3@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/3.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Венеція люкс</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/4.webp 1x, ./img/goods/bedroom/4@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/4.jpg 1x, ./img/goods/bedroom/4@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/4.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Імперія</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+                                        </div>
+                                        <div class="tab__novelty-container">
+                                            <p class='tab__novelty'>Новинка</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class='tab__item  _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/5.webp 1x, ./img/goods/bedroom/5@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/5.jpg 1x, ./img/goods/bedroom/5@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/5.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Адель</h4>
+                                            <p class='tab__price tab__action-price'>8 999 грн</p>
+                                            <p class='tab__old-price'>8 999 грн</p>
+                                        </div>
+                                        <div class='tab__sale-container'>
+                                            <p class='tab__sale'><span>Хіт продаж</span></p>
+                                            <p class='tab__action'><span>Акція</span></p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class='tab__item _list'>
+                                    <a rel='noopener no-referrel nofollow' class='tab__link _link' href=''>
+                                        <picture>
+                                            <source
+                                                srcset='./img/goods/bedroom/6.webp 1x, ./img/goods/bedroom/6@2x.webp 2x'
+                                                media='(min-width: 1200px)' type='image/webp' width='370'>
+                                            <source
+                                                srcset='./img/goods/bedroom/6.jpg 1x, ./img/goods/bedroom/6@2x.jpg 2x'
+                                                media='(min-width: 1200px)' width='370'>
+                                            <img class="tab__img" src="./img/goods/bedroom/6.jpg" alt="">
+                                        </picture>
+                                        <div class='tab__description-container'>
+                                            <h4 class='tab__title'>Ліжко Атлант</h4>
+                                            <p class='tab__price'>8 999 грн</p>
+
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         <div id="tab-03" class='tabs__block hidden'>Крісла Lorem ipsum dolor sit amet consectetur
                             adipisicing
                             elit.
@@ -579,13 +702,10 @@
                             esse excepturi molestias numquam, laboriosam impedit aperiam. Obcaecati molestias laboriosam
                             enim.</div>
                     </div>
-                    quasi eaque quidem. Perspiciatis corporis temporibus molestias
-                    iusepellat provident incidunt eius optio repellendus, quas qui
-                    earum quia est veniam aliquam porro facilis aspernatur doloremque. Aperiam eum, quidem veritatis
-                    officiis is delec
 
 
                 </div>
+                <a rel='noopener no-referrel nofollow' class='goods__link-catalog _link' href=''>В каталог</a>
             </div>
         </section>
         <!-- about-us -->
@@ -639,9 +759,161 @@
 
             </div>
         </section>
+        <!-- question -->
+        <section class='question__section _section'>
+            <div class='question__container _container'>
+                <div class="__title">
+                    <h2 class='section__title'>Залишились питання?</h2>
+                </div>
+                <div class='question__content'>
+                    <div class='question__img-content'>
+                        <picture>
+                            <source srcset='./img/question/1.webp 1x, ./img/question/1@2x.webp 2x' type='image/webp'>
 
+                            <source srcset='./img/question/1.jpg 1x, ./img/question/2.jpg 2x'>
 
+                            <img class="question__img" src="./img/question/1.jpg" alt="наша команда">
+                        </picture>
+                    </div>
+
+                    <div class="question__text-content">
+                        <h3 class='question-title'>Замовте консультацію</h3>
+                        <form class="question__form" action="">
+                            <span class="question__decorative-container">
+                                <input class="question__input-area" type="text" name="name" placeholder="Ім'я" required
+                                    minlength="2">
+                                <input class="question__input-area" type="text" type="tel" name="phone"
+                                    placeholder="Номер телефону" required pattern="\+?[0-9\s\-\(\)]+" minlength="10">
+                            </span>
+                            <button type='submit' class='question__btn'>Відправити</button>
+                        </form>
+                        <p class='question__text'>Залиште заявку або телефонуйте за номером <a
+                                rel='noopener no-referrel nofollow' class='__link _link' href='tel:+380991112233'>(099)
+                                111 22
+                                33,</a> і наш менеджер звяжеться з вами для кваліфікованої
+                            консультації.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section class='footer__section _section'>
+            <div class='footer__container _container'>
+                <div class='footer__left-side'>
+
+                    <div class='footer__link-container'>
+                        <a href="#" class="footer__logo _link item">
+                            <svg class='footer__logo-icon'>
+                                <use href='./svg/sprite.svg#icon-footer'></use>
+                            </svg>
+                            <p class='footer__logo-name'><span>F</span>urniture.test</p>
+                        </a>
+                        <div class='footer__menu-container'>
+                            <ul class='footer__menu__list'>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Дивани</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>ліжка</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Крісла</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>шафи</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Кухні</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>комоди</a>
+                                </li>
+                            </ul>
+                            <ul class='footer__menu__list'>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>АкцІї</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>Доставка та
+                                        оплата</a></li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link' href=''>про
+                                        нас</a>
+                                </li>
+                                <li class='footer__menu__item _list'><span>—</span> <a
+                                        rel='noopener no-referrel nofollow' class='footer__menu__link _link'
+                                        href=''>контакти</a>
+                                </li>
+                            </ul>
+
+
+                            <div class='footer__data-container'>
+                                <a rel='noopener no-referrel nofollow' class='footer__data__map _link'
+                                    href="https://goo.gl/maps/ZLKBhgC65MUaGSks7" target="_blank">
+                                    <svg class='footer__data__map__icon'>
+                                        <use href='./svg/sprite.svg#icon-map-pin'></use>
+                                    </svg>TEST
+                                </a>
+                                <p class="footer__data-time"> <svg class='footer__data-time__icon'>
+                                        <use href='./svg/sprite.svg#icon-calendar'></use>
+                                    </svg> Пн-Пт, з 10 до 18</p>
+                                <a class="footer__data__phone  _link" href="tel:0991112233"><svg
+                                        class="footer__data__icon">
+                                        <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                    </svg>(099) 111 22 33</a>
+                                <a class="footer__data__phone  _link" href="tel:0992223344"><svg
+                                        class="footer__data__icon footer__data__icon-1">
+                                        <use href="./svg/sprite.svg#icon-smartphone"></use>
+                                    </svg>(099) 222 33 44</a>
+                                <div class='footer__social-container'>
+                                    <p class='footer__social-title'>Ми в соціальних мережах:</p>
+                                    <ul class='footer__social-list'>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-telegram'></use>
+                                                </svg></a></li>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-facebook'></use>
+                                                </svg></a></li>
+                                        <li class='footer__social-item _list'><a rel='noopener no-referrel nofollow'
+                                                class='footer__social__link _link' href='#'><svg
+                                                    class='footer__social__icon'>
+                                                    <use href='./svg/sprite.svg#icon-instagram'></use>
+                                                </svg></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class='footer__last-container'>
+                            <p class=''>&copy ТОВ Furniture, працюємо з 2006 року</p>
+                            <a rel='noopener no-referrel nofollow' class='__link _link' href='' target="_blank"><svg
+                                    class='__icon'>
+                                    <use href='./svg/sprite.svg#icon-vector2'></use>
+                                </svg>Глянець — розробка інтернет-магазинів</a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class='footer__rigth-side'>
+                    <picture>
+                        <source srcset='./img/footer/1.webp 1x, ./img/footer/1@2x.webp 2x' type='image/webp'>
+                        <source srcset='./img/footer/1.jpg 1x, ./img/footer/1@2x.jpg 2x'>
+                        <img class='footer__img' src="./img/footer/1.jpg" alt="Меблі">
+                    </picture>
+                </div>
+        </section>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>

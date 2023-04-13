@@ -10,10 +10,10 @@ let myImageSlider = new Swiper(".image-slider", {
     onlyInViewport: true,
     pageUpDown: true,
   },
-  mousewheel: {
-    sensitivity: 1,
-    eventTarget: ".image_slider",
-  },
+  // mousewheel: {
+  //   sensitivity: 0,
+  //   // eventTarget: ".image_slider",
+  // },
   slidesPerView: 3,
   watchOverfloc: true,
   spaceBetween: 30,

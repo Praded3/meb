@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color_accent".
-        on line 61 of D:\prog\mebli\sass\component.scss
+        on line 64 of D:\prog\mebli\sass\component.scss
 
-56: 
-57:   &::before {
-58:     content: "";
-59:     width: 20px;
-60:     height: 100%;
-61:     background-color: $color_accent;
-62:     top: 0;
-63:     left: -1%;
-64:     position: absolute;
-65:     z-index: -1;
-66:     @media screen and (max-width: 1440px) {
+59: 
+60:   &::before {
+61:     content: "";
+62:     width: 20px;
+63:     height: 100%;
+64:     background-color: $color_accent;
+65:     top: 0;
+66:     left: -1%;
+67:     position: absolute;
+68:     z-index: -1;
+69:     @media screen and (max-width: 1440px) {
 
 Backtrace:
-D:\prog\mebli\sass\component.scss:61
+D:\prog\mebli\sass\component.scss:64
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_accent\".\A         on line 61 of D:\prog\mebli\sass\component.scss\A \A 56: \A 57:   &::before {\A 58:     content: \"\";\A 59:     width: 20px;\A 60:     height: 100%;\A 61:     background-color: $color_accent;\A 62:     top: 0;\A 63:     left: -1%;\A 64:     position: absolute;\A 65:     z-index: -1;\A 66:     @media screen and (max-width: 1440px) {"; }
+  content: "Error: Undefined variable: \"$color_accent\".\A         on line 64 of D:\prog\mebli\sass\component.scss\A \A 59: \A 60:   &::before {\A 61:     content: \"\";\A 62:     width: 20px;\A 63:     height: 100%;\A 64:     background-color: $color_accent;\A 65:     top: 0;\A 66:     left: -1%;\A 67:     position: absolute;\A 68:     z-index: -1;\A 69:     @media screen and (max-width: 1440px) {"; }

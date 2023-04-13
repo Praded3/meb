@@ -6,9 +6,23 @@
 @import "advantages.scss";
 @import "goods.scss";
 @import "about-us.scss";
-
+@import "question.scss";
+@import "footer.scss";
 // @import "categories.scss";
 
-* {
-  outline: 1px solid rgb(243, 18, 18);
-}
+// * {
+//   outline: 1px solid rgb(243, 18, 18);
+// }
+// body::-webkit-scrollbar {
+//   width: 12px; /* ширина всей полосы прокрутки */
+// }
+
+// body::-webkit-scrollbar-track {
+//   background: orange; /* цвет зоны отслеживания */
+// }
+
+// body::-webkit-scrollbar-thumb {
+//   background-color: blue; /* цвет бегунка */
+//   border-radius: 20px; /* округлось бегунка */
+//   border: 3px solid orange; /* отступ вокруг бегунка */
+// }

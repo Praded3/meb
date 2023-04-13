@@ -255,6 +255,7 @@
 }
 
 .header__link {
+  position: relative;
   font-size: 18px;
   text-transform: uppercase;
   transition: $transition__stock;
@@ -276,6 +277,17 @@
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+}
+.header__link-active {
+  &::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: $color_accent;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
   }
 }
 .header__bottom {

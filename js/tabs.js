@@ -16,6 +16,6 @@ for (let item of tabsItem) {
 let tabsDiv = $(".tabs__item");
 
 tabsDiv.on("click", function () {
-  tabsDiv.removeClass("active");
-  $(this).addClass("active");
+  tabsDiv.removeClass("active-tab");
+  $(this).addClass("active-tab");
 });

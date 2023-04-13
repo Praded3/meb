@@ -148,12 +148,10 @@
   height: 100%;
   padding: 0 5px;
   position: relative;
-  // z-index: 1;
   margin-right: 10px;
 
   @media screen and (max-width: 767px) {
     display: flex;
-    // flex-direction: column-reverse;
     position: static;
     justify-content: center;
     align-items: center;
@@ -344,7 +342,6 @@
     width: 150%;
     top: 25px;
     left: 0;
-    // border: 1px solid $color_accent;
     padding: 20px 20px;
 
     &::before {
@@ -679,7 +676,6 @@
 
 .sub__item {
   position: relative;
-  // padding-bottom: 5px;
   display: flex;
 }
 .sub__item__link {

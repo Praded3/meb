@@ -1,6 +1,9 @@
 .goods__tabs {
   display: flex;
   flex-direction: column;
+  // transition: all 1s ease 0s;
+  // opacity: 0;
+  // transform: translate(-120%, 0px);
   gap: 84px;
   @media screen and (max-width: 1600px) {
     gap: 70px;
@@ -15,6 +18,10 @@
     gap: 20px;
   }
 }
+// .goods__tabs._active {
+//   opacity: 1;
+//   transform: translate(0px, 0px);
+// }
 .tabs__list {
   padding: 5px;
   display: flex;

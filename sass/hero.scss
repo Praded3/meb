@@ -15,7 +15,27 @@
     padding-top: 84px;
   }
 }
+.slider__title._anim-items {
+  transform: translate(0px, 120px);
+  opacity: 0;
+  transition: all 0.8s ease 0;
+}
+.slider__title._anim-items._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.1s;
+}
 
+.slider__description._anim-items {
+  transform: translate(0px, 150%);
+  opacity: 0;
+  transition: all 0.8s ease 0;
+}
+.slider__description._anim-items._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.1s;
+}
 .hero__slide {
   position: relative;
   position: relative;

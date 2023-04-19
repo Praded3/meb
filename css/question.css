@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$color_white".
-        on line 5 of D:\prog\test\meb\sass\header.scss
+        on line 40 of D:\prog\test\meb\sass\question.scss
 
-1: .header {
-2:   position: fixed;
-3:   width: 100%;
-4:   z-index: 50;
-5:   background-color: $color_white;
-6:   margin-left: auto;
-7:   margin-right: auto;
-8: 
-9:   @media screen and (min-width: 768px) {
-10:     &::after {
+35:   display: flex;
+36:   flex-direction: column;
+37: 
+38:   max-width: 528px;
+39:   max-height: 70%;
+40:   background-color: $color_white;
+41:   right: 0;
+42:   top: 15%;
+43:   padding: 49px 50px 49px 45px;
+44:   @media screen and (max-width: 767px) {
+45:     display: flex;
 
 Backtrace:
-D:\prog\test\meb\sass\header.scss:5
+D:\prog\test\meb\sass\question.scss:40
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -61,4 +62,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_white\".\A         on line 5 of D:\prog\test\meb\sass\header.scss\A \A 1: .header {\A 2:   position: fixed;\A 3:   width: 100%;\A 4:   z-index: 50;\A 5:   background-color: $color_white;\A 6:   margin-left: auto;\A 7:   margin-right: auto;\A 8: \A 9:   @media screen and (min-width: 768px) {\A 10:     &::after {"; }
+  content: "Error: Undefined variable: \"$color_white\".\A         on line 40 of D:\prog\test\meb\sass\question.scss\A \A 35:   display: flex;\A 36:   flex-direction: column;\A 37: \A 38:   max-width: 528px;\A 39:   max-height: 70%;\A 40:   background-color: $color_white;\A 41:   right: 0;\A 42:   top: 15%;\A 43:   padding: 49px 50px 49px 45px;\A 44:   @media screen and (max-width: 767px) {\A 45:     display: flex;"; }

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color_accent".
-        on line 82 of D:\prog\mebli\sass\hero.scss
+        on line 102 of D:\prog\test\meb\sass\hero.scss
 
-77:     width: 15px;
-78:     height: 100%;
-79:     position: absolute;
-80:     top: 0;
-81:     left: 0;
-82:     background-color: $color_accent;
-83:     @media screen and (max-width: 720px) {
-84:       width: 5px;
-85:     }
-86:   }
-87:   @media screen and (max-width: 1540px) {
+97:     width: 15px;
+98:     height: 100%;
+99:     position: absolute;
+100:     top: 0;
+101:     left: 0;
+102:     background-color: $color_accent;
+103:     @media screen and (max-width: 720px) {
+104:       width: 5px;
+105:     }
+106:   }
+107:   @media screen and (max-width: 1540px) {
 
 Backtrace:
-D:\prog\mebli\sass\hero.scss:82
+D:\prog\test\meb\sass\hero.scss:102
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_accent\".\A         on line 82 of D:\prog\mebli\sass\hero.scss\A \A 77:     width: 15px;\A 78:     height: 100%;\A 79:     position: absolute;\A 80:     top: 0;\A 81:     left: 0;\A 82:     background-color: $color_accent;\A 83:     @media screen and (max-width: 720px) {\A 84:       width: 5px;\A 85:     }\A 86:   }\A 87:   @media screen and (max-width: 1540px) {"; }
+  content: "Error: Undefined variable: \"$color_accent\".\A         on line 102 of D:\prog\test\meb\sass\hero.scss\A \A 97:     width: 15px;\A 98:     height: 100%;\A 99:     position: absolute;\A 100:     top: 0;\A 101:     left: 0;\A 102:     background-color: $color_accent;\A 103:     @media screen and (max-width: 720px) {\A 104:       width: 5px;\A 105:     }\A 106:   }\A 107:   @media screen and (max-width: 1540px) {"; }

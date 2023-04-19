@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$primery-text-color".
-        on line 15 of D:\prog\mebli\sass\footer.scss
+        on line 15 of D:\prog\test\meb\sass\footer.scss
 
 10: }
 11: .footer__left-side {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$primery-text-color".
 20:     padding: 20px 30px 13px 30px;
 
 Backtrace:
-D:\prog\mebli\sass\footer.scss:15
+D:\prog\test\meb\sass\footer.scss:15
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 15 of D:\prog\mebli\sass\footer.scss\A \A 10: }\A 11: .footer__left-side {\A 12:   display: flex;\A 13:   padding: 50px 56px 13px 51px;\A 14:   flex: 1 0 44%;\A 15:   background-color: $primery-text-color;\A 16:   color: $color_white;\A 17:   @media screen and (max-width: 767px) {\A 18:     flex: 0 1 100%;\A 19:     justify-content: center;\A 20:     padding: 20px 30px 13px 30px;"; }
+  content: "Error: Undefined variable: \"$primery-text-color\".\A         on line 15 of D:\prog\test\meb\sass\footer.scss\A \A 10: }\A 11: .footer__left-side {\A 12:   display: flex;\A 13:   padding: 50px 56px 13px 51px;\A 14:   flex: 1 0 44%;\A 15:   background-color: $primery-text-color;\A 16:   color: $color_white;\A 17:   @media screen and (max-width: 767px) {\A 18:     flex: 0 1 100%;\A 19:     justify-content: center;\A 20:     padding: 20px 30px 13px 30px;"; }

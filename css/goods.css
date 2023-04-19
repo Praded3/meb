@@ -1,20 +1,21 @@
 /*
-Error: Undefined variable: "$color_white".
-        on line 5 of D:\prog\test\meb\sass\header.scss
+Error: Undefined variable: "$line-height".
+        on line 47 of D:\prog\test\meb\sass\goods.scss
 
-1: .header {
-2:   position: fixed;
-3:   width: 100%;
-4:   z-index: 50;
-5:   background-color: $color_white;
-6:   margin-left: auto;
-7:   margin-right: auto;
-8: 
-9:   @media screen and (min-width: 768px) {
-10:     &::after {
+42:   display: flex;
+43:   flex-direction: column;
+44:   justify-content: center;
+45:   align-items: center;
+46:   font-size: 24px;
+47:   line-height: $line-height;
+48:   gap: 10px;
+49:   &:hover .tabs__icon,
+50:   &:focus .tabs__icon {
+51:     fill: $color_accent;
+52:   }
 
 Backtrace:
-D:\prog\test\meb\sass\header.scss:5
+D:\prog\test\meb\sass\goods.scss:47
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/prog/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -61,4 +62,4 @@ D:/prog/koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_white\".\A         on line 5 of D:\prog\test\meb\sass\header.scss\A \A 1: .header {\A 2:   position: fixed;\A 3:   width: 100%;\A 4:   z-index: 50;\A 5:   background-color: $color_white;\A 6:   margin-left: auto;\A 7:   margin-right: auto;\A 8: \A 9:   @media screen and (min-width: 768px) {\A 10:     &::after {"; }
+  content: "Error: Undefined variable: \"$line-height\".\A         on line 47 of D:\prog\test\meb\sass\goods.scss\A \A 42:   display: flex;\A 43:   flex-direction: column;\A 44:   justify-content: center;\A 45:   align-items: center;\A 46:   font-size: 24px;\A 47:   line-height: $line-height;\A 48:   gap: 10px;\A 49:   &:hover .tabs__icon,\A 50:   &:focus .tabs__icon {\A 51:     fill: $color_accent;\A 52:   }"; }
